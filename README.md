@@ -1,10 +1,19 @@
 ## INSTALACIÓN
 1. Clonar este repositorio
-2. `$ docker-compose up`
+2. Levantar las imagenes 
+```bash
+$ docker-compose up
+```
 3. Abrir otra terminal / consola
-4. `$ docker-compose exec tutorships php artisan migrate`
-5. `$ docker-compose exec tutorships php artisan`
-6. `$ php artisan voyager:admin your@email.com --create`
+4. Migrar la base de datos
+```bash
+$ docker-compose exec tutorships php artisan migrate
+```
+5. Crear usuario administrador
+```bash
+$ docker-compose exec php artisan voyager:admin your@email.com --create
+```
+
 
 
 
