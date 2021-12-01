@@ -13,7 +13,7 @@ $ docker-compose exec tutorships php artisan migrate
 ```bash
 $ docker-compose exec php artisan voyager:admin your@email.com --create
 ```
-
+6. Ahora tienes acceso al sitio en localhost:3000/admin . Ahí se puede crear un usuario tutor y comenzar a utilizar el sistema.
 
 
 
